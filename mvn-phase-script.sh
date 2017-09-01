@@ -30,6 +30,25 @@ generate-sources)
   ;;
 compile)
   echo "==> compile phase script"
+
+  set -x
+  echo '================= STARTING SCRIPT TO CREATE DEBIAN FILE ================='
+  # Extract the username and password to the nexus repo from the settings file
+  USER=$(xpath -q -e "//servers/server[id='ecomp-raw']/username/text()" "$SETTINGS_FILE")
+  PASS=$(xpath -q -e "//servers/server[id='ecomp-raw']/password/text()" "$SETTINGS_FILE")
+  REPO="${MVN_NEXUSPROXY}/content/sites/raw"
+  NETRC=$(mktemp)
+  echo "machine nexus.onap.org login $USER password $PASS" > "$NETRC"
+  echo "NETRC=$NETRC" > "$WORKSPACE/netrc_env.txt"
+
+
+  OUTPUT_FILE='analytics.bin'
+  echo "Test" > ${OUTPUT_FILE}
+
+  SEND_TO="${REPO}/deleteme/${OUTPUT_FILE}"
+  echo "Sending ${OUTPUT_FILE} to Nexus: ${SEND_TO}"
+  curl -vkn --netrc-file "${NETRC}" --upload-file ${OUTPUT_FILE} ${SEND_TO}
+
   ;;
 test)
   echo "==> test phase script"
