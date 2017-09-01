@@ -39,13 +39,13 @@ compile)
   REPO="${MVN_NEXUSPROXY}/content/sites/raw"
   NETRC=$(mktemp)
   echo "machine nexus.onap.org login $USER password $PASS" > "$NETRC"
-  echo "NETRC=$NETRC" > "$WORKSPACE/netrc_env.txt"
-
+  #echo "NETRC=$NETRC" > "$WORKSPACE/netrc_env.txt"
 
   OUTPUT_FILE='analytics.bin'
   echo "Test" > ${OUTPUT_FILE}
 
-  SEND_TO="${REPO}/org.onap.dcaegen2.analytics/todelete/${OUTPUT_FILE}"
+  FQDN="${MVN_PROJECT_GROUPID}.${MVN_PROJECT_ARTIFACTID}"
+  SEND_TO="${REPO}/${FQDN}.deleteme/SNAPSHOTS/${OUTPUT_FILE}"
   echo "Sending ${OUTPUT_FILE} to Nexus: ${SEND_TO}"
   curl -vkn --netrc-file "${NETRC}" --upload-file ${OUTPUT_FILE} ${SEND_TO}
 
