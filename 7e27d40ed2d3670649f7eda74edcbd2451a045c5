@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_709f6804",
+        "filename": "INFO.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-25T16:12:05Z",
+      "side": 1,
+      "message": "To be updated based on https://wiki.onap.org/display/DW/Resources+and+Repositories#ResourcesandRepositories-DataCollectionAnalyticsandEvents",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 32
+      },
+      "revId": "7e27d40ed2d3670649f7eda74edcbd2451a045c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_d09af413",
+        "filename": "INFO.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-25T16:12:05Z",
+      "side": 1,
+      "message": "https://wiki.onap.org/display/DW/DCAE+Project+Meetings",
+      "range": {
+        "startLine": 18,
+        "startChar": 15,
+        "endLine": 18,
+        "endChar": 56
+      },
+      "revId": "7e27d40ed2d3670649f7eda74edcbd2451a045c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_10906ceb",
+        "filename": "INFO.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-25T16:12:05Z",
+      "side": 1,
+      "message": "14:00 UTC (DST), 15:30 UTC (post DST)",
+      "range": {
+        "startLine": 23,
+        "startChar": 13,
+        "endLine": 23,
+        "endChar": 22
+      },
+      "revId": "7e27d40ed2d3670649f7eda74edcbd2451a045c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_90a47c58",
+        "filename": "INFO.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-25T16:12:05Z",
+      "side": 1,
+      "message": "To be updated based on recent changes - https://wiki.onap.org/display/DW/Resources+and+Repositories#ResourcesandRepositories-DataCollectionAnalyticsandEvents",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 34
+      },
+      "revId": "7e27d40ed2d3670649f7eda74edcbd2451a045c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
