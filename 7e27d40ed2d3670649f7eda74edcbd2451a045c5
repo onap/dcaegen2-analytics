@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_bb040116",
+        "filename": "INFO.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-25T16:36:33Z",
+      "side": 1,
+      "message": "Correction\n13:00 UTC (DST), 15:30 UTC (post DST)",
+      "parentUuid": "da7095c5_10906ceb",
+      "range": {
+        "startLine": 23,
+        "startChar": 13,
+        "endLine": 23,
+        "endChar": 22
+      },
+      "revId": "7e27d40ed2d3670649f7eda74edcbd2451a045c5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_90a47c58",
         "filename": "INFO.yaml",
         "patchSetId": 1
