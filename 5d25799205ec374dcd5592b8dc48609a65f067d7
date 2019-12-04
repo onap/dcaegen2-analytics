@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af77e6d0_bd67695c",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-12-04T23:56:11Z",
+      "side": 1,
+      "message": "space to removed",
+      "range": {
+        "startLine": 68,
+        "startChar": 29,
+        "endLine": 68,
+        "endChar": 30
+      },
+      "revId": "5d25799205ec374dcd5592b8dc48609a65f067d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58d3fc49_fbffeca9",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-12-04T23:56:11Z",
+      "side": 1,
+      "message": "space to removed",
+      "range": {
+        "startLine": 74,
+        "startChar": 64,
+        "endLine": 74,
+        "endChar": 65
+      },
+      "revId": "5d25799205ec374dcd5592b8dc48609a65f067d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
